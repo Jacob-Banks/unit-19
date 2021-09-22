@@ -1,33 +1,23 @@
 {
-  "name": "images-demo",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "seed": "node seeders/seed.js",
-    "start": "node server.js",
+    "name": "module-18-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "assets/js/script.js",
+    "scripts": {
         "webpack": "webpack --watch",
-      "build": "webpack"
-  
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "glob": "^7.1.4",
-    "mongoose": "^5.5.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jacob-Banks/unit-19.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/Jacob-Banks/unit-19/issues"
-  },
-  "homepage": "https://github.com/Jacob-Banks/unit-19#readme",
-  "description": "",
-  "devDependencies": {
-    "webpack": "^4.46.0",
-    "webpack-cli": "^4.6.0"
-  }
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.0"
+    }
 }
