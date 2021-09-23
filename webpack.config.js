@@ -1,4 +1,4 @@
-const webpack = require("webpack");
+const webpack = require("webpack"); //lesson
 const path = require("path");
 const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
